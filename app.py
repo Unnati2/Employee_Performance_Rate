@@ -15,7 +15,7 @@ st.markdown(
     <style>
     /* Define custom CSS styles */
     body {
-        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tinypulse.com%2Fblog%2F17-essential-survey-questions-to-predict-employee-attrition-and-turnover&psig=AOvVaw0pRzfnQi01cn6by4BA7YBk&ust=1715074663529000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPil9ZXd-IUDFQAAAAAdAAAAABAJ'); /* Set the background image */
+        background-image: url('https://lh5.googleusercontent.com/hTI3CDTpL1spQxGAGxfGoSRiV-XR8ZMqTSx096kxl7B6irAcbXXoqg7EvT4MPA09SdZV9M7MJ2bgVmW51W8zZ8IddRJMmjBNSRI2Y0JeEYPz3GayIfDiUojn8iTBPEL_SLUc4Yho#keepProtocol'); /* Set the background image */
         background-size: cover;
         font-family: Times New Roman;  /* Change the font family */
         opacity: 0.8;
@@ -60,10 +60,10 @@ st.title("Employee Attrition Rate")
 
 col1, col2 = st.columns(2)
 with col1:
-    el = st.slider("Education Level", 1, 5, 3)
-    tos = st.slider("Time of Service", 1, 100, 2)
-    top = st.slider("Time of Promotion", 0, 50, 5)
-    gr = st.slider("Growth Rate", 0, 74, 37)
+    el = st.slider("Education Level", 1, 5)
+    tos = st.slider("Time of Service", 1, 43)
+    top = st.slider("Time of Promotion", 0, 4)
+    gr = st.slider("Growth Rate", 0, 74)
 
 with col2:
     tr = st.selectbox("Travel Rate", [0, 1, 2])
