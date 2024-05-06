@@ -74,5 +74,5 @@ if st.button("Predict Performance Rate"):
     result = predict(np.array([[el, tos, top, gr, tr, pl, 1, 1, 1, 1, 1]]))[0]
     result_percentage = result * 100
     category = performance_category(result)
-   st.markdown(f"**Attrition Rate:** {result_percentage:.2f}%")
+    st.markdown(f"**Attrition Rate:** {result_percentage:.2f}%")
     st.markdown(f"**Performance Category:** {category}")
