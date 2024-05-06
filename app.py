@@ -15,7 +15,7 @@ st.markdown(
     <style>
     /* Define custom CSS styles */
     body {
-        background-image: url('https://storage.googleapis.com/profit-prod/wp-content/uploads/2021/03/68e656fb-5ways-effective-performance-appraisal-system.jpg'); /* Set the background image */
+        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tinypulse.com%2Fblog%2F17-essential-survey-questions-to-predict-employee-attrition-and-turnover&psig=AOvVaw0pRzfnQi01cn6by4BA7YBk&ust=1715074663529000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPil9ZXd-IUDFQAAAAAdAAAAABAJ'); /* Set the background image */
         background-size: cover;
         font-family: Times New Roman;  /* Change the font family */
         opacity: 0.8;
@@ -72,6 +72,7 @@ with col2:
 if st.button("Predict Performance Rate"):
     st.write("Employee Performance Rate is : ")
     result = predict(np.array([[el, tos, top, gr, tr, pl, 1, 1, 1, 1, 1]]))[0]
+    result_percentage = result * 100
     category = performance_category(result)
-    st.markdown(f"**Performance Rate:** {result}")
+   st.markdown(f"**Attrition Rate:** {result_percentage:.2f}%")
     st.markdown(f"**Performance Category:** {category}")
