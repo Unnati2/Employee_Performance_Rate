@@ -15,8 +15,6 @@ st.markdown(
     <style>
     /* Define custom CSS styles */
     body {
-        background-image: url('https://lh5.googleusercontent.com/hTI3CDTpL1spQxGAGxfGoSRiV-XR8ZMqTSx096kxl7B6irAcbXXoqg7EvT4MPA09SdZV9M7MJ2bgVmW51W8zZ8IddRJMmjBNSRI2Y0JeEYPz3GayIfDiUojn8iTBPEL_SLUc4Yho#keepProtocol'); /* Set the background image */
-        background-size: cover;
         font-family: Times New Roman;  /* Change the font family */
         opacity: 0.8;
     }
